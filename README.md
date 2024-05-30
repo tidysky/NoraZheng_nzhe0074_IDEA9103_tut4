@@ -21,18 +21,18 @@ I was inspired a lot by this video from vimeo. In this video, every circle was m
 - __bgCircles__: Array to store background circles.
 - __time__: Controls the variation in the wave pattern.
 
-#### Updating in Setup Function:
+#### Updating in Setup Function
 - __`frameRate(60)`__: Sets the frame rate to 60 frames per second for smoother animation.
 
 
-#### Updating in Draw Function:
+#### Updating in Draw Function
 - __Circle Movement__: Existing circles move to the right based on the speed variable.
 - __Wave Effect__:The time variable is incremented to create a changing wave pattern effect.
 
 #### Changes in Circle Class:
 - __Position and Drawing__:Circles' positions are updated and patterns are drawn to reflect changes in time and position.
 - __Vertical Position__: Uses the `noise() `function to determine vertical positions, creating a wave-like effect.
-- __Handling Overlap__ Removes the code for preventing circle overlap.
+- __Handling Overlap__: Removes the code for preventing circle overlap.
 
 
 Together, these updates build a dynamic background where the motion circles are controlled by speed and time with `noise()` function in a wave-like patten.
